@@ -1,0 +1,8 @@
+.offertag{
+    border: 2px solid rgb(247, 177, 3);
+    background-color: rgb(247, 177, 3);
+    width: 40%;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}

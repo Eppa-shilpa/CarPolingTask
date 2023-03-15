@@ -1,0 +1,16 @@
+#profilePic
+{
+    width: 40px;
+    height: 40px;
+}
+#userName{
+    font-size: 20px;
+    font-weight: 700;   
+}
+.offerRidebg{
+    background-image: url("src\assets\img4.png");
+}
+.bookRide{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

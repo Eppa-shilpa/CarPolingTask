@@ -1,0 +1,59 @@
+.formField{
+    padding-bottom: 15px;    
+    padding-left: 20px;
+}
+.input{
+    width:320px;
+    height: 60px;
+    border-radius: 3px;
+    border-color: white;
+}
+#submitButton{
+    margin-left: 100px;
+    width:110px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(247, 177, 3);
+    color: white;
+    border-color: rgb(247, 177, 3);
+    font-weight: 600;
+}
+.error{
+    color: red;
+}
+.Login{
+    background-color: rgb(100, 51, 146);
+    height: 100%;
+    width: 100%;
+}
+#LoginImage{
+    height: 620px;
+    position: relative;
+    top:100px;
+    width: 100%; 
+    
+}
+.register{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    color: white;
+}
+#line{
+    color: white;
+    border-width: 3px;
+    width: 100px;
+    position: absolute;
+    right: 12%;
+    top:120px;
+    /* opacity: 0; */
+   
+}
+#loginText{
+  
+    position: absolute;
+    top:10%;
+    right: 12%;
+    color: white;
+   
+}

@@ -1,0 +1,88 @@
+.switch{
+    position: relative;
+    top:-50px;
+    left:80%;
+    size: 20px;
+}
+#stops{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.pricetag{
+    border: 1px solid white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.radioLabel{
+    position: relative;
+    left: -23px;  
+      top: -10px;
+      font-size: 20px;
+      opacity: .5;
+}
+.radioicon{
+    width: 2em;
+    height: 2em;
+   
+}
+#firststop{
+    position: relative;
+    left:-5px;
+}
+.seats{
+    border:2px solid blueviolet;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    border-radius: 60%;
+}
+.seats:focus
+{
+    background-color: blueviolet;
+}
+#icon1{
+    position: relative;
+    left: 69%;
+ }
+ #icon2{
+     position: relative;
+     left: 76%;
+  }
+  .addButton{
+ position: absolute;
+ left: 90px;
+  }
+.stopInput{
+position: relative;
+}
+
+/* .switchWidth{
+   min-width: 15%;
+    min-height: 25px;
+} */
+.radiotoolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  }
+  .radiotoolbar label {
+    display: inline-block;
+    background-color: #ffffff;
+ 
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+     margin-right: 10px;
+     margin-bottom: 5px;
+    border-radius: 50px;
+    border: 2px solid rgb(107, 107, 107);
+    
+}
+.radiotoolbar input[type="radio"]:checked + label {
+    background-color: blueviolet;
+    border-color:  blueviolet;
+    color: white;
+}

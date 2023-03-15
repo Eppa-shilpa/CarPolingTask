@@ -1,0 +1,44 @@
+.menuDiv{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#profilePic
+{
+    width: 40px;
+    height: 40px;
+}
+#userName{
+    font-size: 20px;
+    font-weight: 700;   
+}
+.BookRide{
+    border: 2px solid rgb(166, 82, 244);
+    background-color: rgb(166, 82, 244);
+    color: white;
+    padding-top: 70px;
+    width: 90%;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.OfferRide{
+    border: 2px solid rgb(247, 177, 3);
+    background-color: rgb(247, 177, 3);
+    color: white;
+    padding-top: 70px;
+    width: 90%;
+    height: 200px;
+    border-radius: 10px;
+}
+.welcomeText{
+    padding-left: 370px;
+    font-weight: 800;
+}
+
+#bookOfferRideImage
+{
+    position:absolute;
+    bottom: 0;
+    z-index: -1;
+}

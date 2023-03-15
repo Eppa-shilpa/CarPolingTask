@@ -1,0 +1,20 @@
+#profilePic
+{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+
+}
+#userName{
+    font-size: 20px;
+    font-weight: 700;   
+}
+.Dropdown{
+    position: relative;
+    top:-40px;
+    right: -50px;
+}
+.MenuItems:hover{
+background-color: blueviolet;
+color: black;
+}

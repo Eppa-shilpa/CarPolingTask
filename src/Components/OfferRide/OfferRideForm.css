@@ -1,0 +1,88 @@
+.OfferRideForm{
+    width: 400px;
+    height: 500px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+.switch{
+    position: relative;
+    top:-50px;
+    left:80%;
+    size: 20px;
+}
+.switchWidth{
+   min-width: 15%;
+    min-height: 25px;
+}
+.inputfield{
+    border-bottom:2px solid rgb(141, 141, 141);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+  
+}
+#submitButton{
+    margin-left: 20px;
+    width:110px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(247, 177, 3);
+    color: white;
+    border-color: rgb(247, 177, 3);
+    font-weight: 600;
+}
+#label{
+    margin-left: -50px;
+ 
+}
+.labelName,.tagLine{
+    color: rgb(136, 139, 142);
+    font-weight: 500;   
+}
+#icon1{
+   position: relative;
+   left: 69%;
+}
+#icon2{
+    position: relative;
+    left: 76%;
+ }
+ .next{
+    position: relative;
+    left: 70%;
+    border: none;
+    font-weight: 600;
+    color: blueviolet;
+ }
+ .time{
+    border:2px solid rgb(144, 12, 244);
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+margin-bottom: 5px;
+margin-right: 10px;
+border-radius: 15px;
+ }
+ .time:focus{
+    background-color: blueviolet;
+ }
+/* .time:focus,.btn:focus,.btn-ckeck:checked+.btn{
+    background-color: blueviolet;
+} */
+
+.location{
+    width: 80%;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+ }
+
+ /* .ride{
+    position: absolute;
+ } */

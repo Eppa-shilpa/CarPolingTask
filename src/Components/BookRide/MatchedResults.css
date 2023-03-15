@@ -1,0 +1,25 @@
+.userCard{
+    /* box-shadow: inset 0 0em 1em rgba(0, 0, 0, 0.1), 0 0 0 1px rgb(255, 255, 255); */
+   
+   
+    height:fit-content;
+    border-radius: 10px;
+    padding: 0px;
+    padding-right: 0px;
+    background-color: white;
+}
+.label{
+    color: rgb(171, 173, 175);
+    font-weight: 600;
+}
+.rideData{
+    font-size: large;
+}
+#profilePic
+{
+    width: 40px;
+    height: 40px;
+}
+#seats{
+    width: 80px;
+}

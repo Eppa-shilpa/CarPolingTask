@@ -1,0 +1,17 @@
+#startPageImage{
+    width: 95%;
+    height: 339px;
+    position: relative;
+  
+}
+.loginTitle{
+   font-size: 5rem;
+   font-style: italic;
+   font-weight: 900;
+   padding-bottom: 0px;
+}
+.rideText{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
