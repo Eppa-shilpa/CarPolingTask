@@ -4,15 +4,22 @@ import {useNavigate} from 'react-router-dom'
 //const loginUrl='https://localhost:44350/api/User/Login';
 import axios from 'axios';
 import "./Login.css";
+import { ReportService } from "../../../Services/SecurityService";
 type propType=
 {
     userLogedIn:()=>void
 }
-const Login = ({userLogedIn}:propType) => {
+const Login = ({ userLogedIn }: propType) => {
+    reportService: ReportService = new ReportService();
+
   const [users,setUserList]=useState<string[]>([])
   const [emailWarning,setEmailWarning]=useState("")
 
-  useEffect(() => {
+    useEffect(() => {
+
+        this.reportService.login(request).then(res => {
+
+        })
   axios.get('https://localhost:44350/api/User/Users').then((response) => {
     response.data.map((object:any) => {
       setUserList((users) => [

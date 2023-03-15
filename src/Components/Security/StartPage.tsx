@@ -1,5 +1,5 @@
-import React from "react";
 import "./StartPage.css";
+
 const StartPage = () => {
   return (
     <div className="mb-0" style={{overflowY:"hidden"}}>
